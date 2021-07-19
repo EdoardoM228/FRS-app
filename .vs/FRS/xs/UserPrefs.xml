@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{350A3E27-CB61-4281-B245-D0D0D53C1A90}|Default">
+  <MonoDevelop.Ide.ItemProperties.FRS.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FRS.Android/Resources/values/styles.xml">
+    <Files>
+      <File FileName="FRS/Pages/LoginPage.xaml.cs" Line="7" Column="6" />
+      <File FileName="FRS/Pages/LoginPage.xaml" Line="9" Column="1" />
+      <File FileName="FRS.Android/Resources/drawable/splash_screen.xml" Line="4" Column="42" />
+      <File FileName="FRS.Android/Resources/values/colors.xml" Line="3" Column="31" />
+      <File FileName="FRS.Android/Resources/values/styles.xml" Line="17" Column="1" />
+      <File FileName="FRS.Android/MainActivity.cs" Line="28" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FRS" expanded="True">
+            <Node name="FRS" expanded="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
+            <Node name="FRS.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+                <Node name="values" expanded="True">
+                  <Node name="styles.xml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

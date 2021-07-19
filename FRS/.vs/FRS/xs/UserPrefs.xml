@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{350A3E27-CB61-4281-B245-D0D0D53C1A90}|Default">
+  <MonoDevelop.Ide.ItemProperties.FRS.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FRS/MainPage.xaml">
+    <Files>
+      <File FileName="FRS/MainPage.xaml" Line="29" Column="44" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FRS" expanded="True">
+            <Node name="FRS" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>FRS.iOS/FRS.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

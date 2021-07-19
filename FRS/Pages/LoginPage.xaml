@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="FRS.Pages.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundImage="ic_background">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+
+            <Entry
+                HorizontalTextAlignment="Center"
+                Keyboard="Email"
+                Placeholder="Enter Email Adress"
+                PlaceholderColor="White" />
+            <Entry
+                HorizontalTextAlignment="Center"
+                Placeholder="Enter Password"
+                PlaceholderColor="White" />
+
+            <Button
+                BackgroundColor="Red"
+                Text="Login"
+                TextColor="White" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
