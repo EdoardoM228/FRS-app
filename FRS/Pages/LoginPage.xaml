@@ -6,21 +6,48 @@
     BackgroundImage="ic_background">
     <ContentPage.Content>
         <StackLayout Margin="20">
+            <Frame
+                CornerRadius="20"
+                HeightRequest="40"
+                WidthRequest="10">
+                <Entry
+                    HorizontalTextAlignment="Center"
+                    Keyboard="Email"
+                    Placeholder="Enter Email Adress"
+                    PlaceholderColor="Gray" />
+            </Frame>
 
-            <Entry
-                HorizontalTextAlignment="Center"
-                Keyboard="Email"
-                Placeholder="Enter Email Adress"
-                PlaceholderColor="White" />
-            <Entry
-                HorizontalTextAlignment="Center"
-                Placeholder="Enter Password"
-                PlaceholderColor="White" />
+            <Frame
+                CornerRadius="20"
+                HeightRequest="40"
+                WidthRequest="10">
+                <Entry
+                    HorizontalTextAlignment="Center"
+                    Placeholder="Enter Password"
+                    PlaceholderColor="Gray" />
+            </Frame>
 
-            <Button
+            <Frame
                 BackgroundColor="Red"
-                Text="Login"
+                CornerRadius="20"
+                HeightRequest="40"
+                WidthRequest="10">
+                <Button
+                    BackgroundColor="Red"
+                    Text="Login"
+                    TextColor="White" />
+            </Frame>
+
+            <Label
+                HorizontalOptions="End"
+                Text="Запомнить меня"
                 TextColor="White" />
+
+            <Switch
+                IsToggled="False"
+                OnColor="White"
+                ThumbColor="Red" />
+
         </StackLayout>
 
     </ContentPage.Content>
