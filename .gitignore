@@ -1,0 +1,7 @@
+FRS/bin
+FRS/obj
+FRS.Android/bin
+FRS.iOS/bin
+FRS.Android/obj
+FRS.iOS/obj
+.DS_Store
