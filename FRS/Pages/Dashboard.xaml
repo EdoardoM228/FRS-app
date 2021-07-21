@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="FRS.Pages.Page2"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Animals"
+    BackgroundColor="White"
+    BackgroundImage="page2_Background"
+    NavigationPage.HasBackButton="False">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Label Text="Choose an animal" />
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

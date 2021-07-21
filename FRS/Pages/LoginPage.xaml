@@ -3,29 +3,41 @@
     x:Class="FRS.Pages.LoginPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    BackgroundImage="ic_background">
+    BackgroundImage="ic_background"
+    NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout Margin="20">
             <Frame
+                BackgroundColor="White"
                 CornerRadius="20"
                 HeightRequest="40"
                 WidthRequest="10">
                 <Entry
+                    x:Name="EmailEntry"
+                    BackgroundColor="White"
                     HorizontalTextAlignment="Center"
                     Keyboard="Email"
                     Placeholder="Enter Email Adress"
                     PlaceholderColor="Gray" />
             </Frame>
 
+            <Label x:Name="LableError" TextColor="White" />
+
             <Frame
+                BackgroundColor="White"
                 CornerRadius="20"
                 HeightRequest="40"
                 WidthRequest="10">
                 <Entry
+                    x:Name="PasswordEntry"
+                    BackgroundColor="White"
                     HorizontalTextAlignment="Center"
+                    IsPassword="True"
                     Placeholder="Enter Password"
                     PlaceholderColor="Gray" />
             </Frame>
+
+            <Label x:Name="LableErrorForPassword" TextColor="White" />
 
             <Frame
                 BackgroundColor="Red"
@@ -33,20 +45,12 @@
                 HeightRequest="40"
                 WidthRequest="10">
                 <Button
+                    x:Name="EntryButton"
                     BackgroundColor="Red"
+                    Clicked="EntryButton_Clicked"
                     Text="Login"
                     TextColor="White" />
             </Frame>
-
-            <Label
-                HorizontalOptions="End"
-                Text="Запомнить меня"
-                TextColor="White" />
-
-            <Switch
-                IsToggled="False"
-                OnColor="White"
-                ThumbColor="Red" />
 
         </StackLayout>
 

@@ -1,26 +1,28 @@
 ﻿<Properties StartupConfiguration="{350A3E27-CB61-4281-B245-D0D0D53C1A90}|Default">
   <MonoDevelop.Ide.ItemProperties.FRS.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FRS/Pages/Page2.xaml">
     <Files>
-      <File FileName="FRS/Pages/LoginPage.xaml.cs" Line="7" Column="6" />
-      <File FileName="FRS/Pages/LoginPage.xaml" Line="30" Column="1" />
-      <File FileName="FRS.Android/Resources/drawable/splash_screen.xml" Line="4" Column="42" />
-      <File FileName="FRS.Android/Resources/values/styles.xml" Line="16" Column="13" />
-      <File FileName="FRS.Android/MainActivity.cs" Line="28" Column="2" />
+      <File FileName="FRS/Pages/LoginPage.xaml.cs" Line="76" Column="18" />
+      <File FileName="FRS/Pages/LoginPage.xaml" />
+      <File FileName="FRS/App.xaml.cs" />
+      <File FileName="FRS/Pages/Page2.xaml" Line="19" Column="1" />
+      <File FileName="FRS/Pages/Page2.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FRS" expanded="True">
             <Node name="FRS" expanded="True">
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="Page2.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
             <Node name="FRS.Android" expanded="True">
               <Node name="Resources" expanded="True">
                 <Node name="drawable" expanded="True" />
-                <Node name="values" expanded="True">
-                  <Node name="colors.xml" selected="True" />
-                </Node>
+                <Node name="values" expanded="True" />
               </Node>
             </Node>
           </Node>
